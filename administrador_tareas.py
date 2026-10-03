@@ -30,15 +30,14 @@ def mostrar_tarea():
     for i in range(len(lista_tareas)):
         print(f'{i+1}.{lista_tareas[i]}')
 
-
-    
-
 def completar_tarea():
     pass
 
 def eliminar_tarea():
     pass
 
+def salir_menu():
+    pass
 
 lista_tareas = []
 activo = True
